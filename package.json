@@ -1,0 +1,34 @@
+{
+  "name": "busy-transaction-events",
+  "version": "1.0.0",
+  "description": "Node Event listner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/busy-technology/busy-events"
+  },
+  "scripts": {
+    "eslint": "eslint . --ext .js",
+    "prettier": "prettier --check .",
+    "fixlint": "eslint . --fix",
+    "prettify": "prettier --write ."
+  },
+  "author": "Sandeep Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramboraj123/Raj_Hansraj/issues"
+  },
+  "homepage": "https://github.com/ramboraj123/Raj_Hansraj#readme",
+  "dependencies": {
+    "fabric-client": "^1.4.18",
+    "fabric-network": "^2.2.10",
+    "mongoose": "^6.0.12",
+    "mongoose-timestamp": "^0.6.0",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
